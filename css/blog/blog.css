@@ -1,0 +1,24 @@
+﻿.article-list{position:relative}
+.article-item{padding:20px 30px 25px 30px;position:relative;overflow:hidden;margin-top:20px;background-color:#fff}
+.article-item .fc-flag{position:absolute;height:20px;line-height:20px;text-align:center;width:74px;background-color:#ff5722;color:#fff;transform:rotate(-45deg);left:-18px;top:9px}
+.article-item .title{line-height:30px;padding:5px 130px 5px 0;border-bottom:1px solid #e8e9e7;font-size:18px;font-weight:400}
+.article-item .fc-blue{color: #2ea7e0;}
+.article-item .time{font-family:SourceCodeProRegular,Menlo,Monaco,Consolas,"Courier New",monospace,'Helvetica Neue',Arial,sans-serif;position:absolute;right:0px;top:0px;background-color:#fff;padding:0 20px 0px 20px;line-height:30px}
+.article-item .time .day{display:block;text-align:center;font-weight:700;font-size:40px;color:#6bc30d;position:relative;top:2px}
+.article-item .time .month,.article-item .time .year{color:#989997}
+.article-item .content{margin:20px 0 0 0;line-height:28px;position:relative;overflow:hidden;min-height:200px}
+.article-item .content .cover{display:block;width:300px;height:180px;border:1px solid #e8e9e7;overflow:hidden;float:left;margin-right:20px}
+.article-item .content .cover img{display:block;width:100%!important;height:100%!important}
+.col-other .other-item{position:relative;background-color:#fff;margin-top:20px;overflow:hidden}
+
+.col-other{width:300px}
+.other-item .inner{margin:0 20px;padding-bottom:10px}
+.other-item-title{margin:10px 20px;padding:5px;line-height:30px;font-weight:400;border-bottom:1px solid #e8e9e7;color:#383937;position:relative;font-size:18px}
+.other-item .inner .hot-list-article li{display:block;line-height:32px;position:relative;margin:3px 0;counter-increment:nums;padding-left:30px;overflow:hidden;word-wrap:normal!important;white-space:nowrap;text-overflow:ellipsis}
+.hot-list-article li a{color:#787977}
+.hot-list-article li:before{width:22px;height:22px;line-height:22px;text-align:center;content:counter(nums,decimal);position:absolute;left:0;top:5px;border-radius:100%;background-color:#edefee;text-shadow:0 1px 0 rgba(255,255,255,.5);font-family:SourceCodeProRegular,Menlo,Monaco,Consolas,"Courier New",monospace,'Helvetica Neue',Arial,sans-serif}
+.hot-list-article li:first-child:before,.hot-list-article li:nth-child(2):before,.hot-list-article li:nth-child(3):before{color:#fff;text-shadow:none}
+.hot-list-article li:first-child:before{background-color:#e24d46}
+.hot-list-article li:nth-child(2):before{background-color:#2ea7e0}
+.hot-list-article li:nth-child(3):before{background-color:#6bc30d}
+.hot-list-article li a:hover{text-decoration:underline;color:#6bc30d}
